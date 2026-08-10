@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="config.properties"/>
+
+    <bean id="draw2D" class="com.fatma.drawing.Draw2D"></bean>
+    <bean id="draw3D" class="com.fatma.drawing.Draw3D"></bean>
+
+    <bean id="circle" class="com.fatma.shape.Circle" scope="singleton">
+        <constructor-arg ref="draw2D" type="com.fatma.drawing.Draw2D"/>
+        <constructor-arg ref="draw3D" type="com.fatma.drawing.Draw3D"/>
+    </bean>
+
+    <bean id="rectangle" class="com.fatma.shape.Rectangle" scope="prototype">
+        <property name="draw2D" ref="draw2D"/>
+        <property name="draw3D" ref="draw3D"/>
+     </bean>
+
+    <bean id="databaseOperation" class="com.fatma.database.DatabaseOperations" scope="singleton"
+          init-method="connectToDatabase" destroy-method="disconnectToDatabase">
+        <constructor-arg name="password" value="database.url"/>
+        <constructor-arg name="url" value="database.username"/>
+        <constructor-arg name="username" value="database.password"/>
+    </bean>
+</beans>
