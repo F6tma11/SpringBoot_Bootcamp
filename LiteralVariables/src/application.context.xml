@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:application.properties"/>
+
+    <bean id="dbManager" class="com.fatma.databae.DBManager">
+        <property name="databaseUrl" value="${database.url}"/>
+        <property name="databaseUserName" value="${database.username}"/>
+        <property name="databasePassword" value="${database.password}"/>
+    </bean>
+
+    <bean id="car" class="com.fatma.vehicle.Car">
+        <constructor-arg ref="dbManager" type="com.fatma.databae.DBManager"/>
+    </bean>
+
+    <bean id="plane" class="com.fatma.vehicle.Plane">
+        <constructor-arg ref="dbManager" type="com.fatma.databae.DBManager"/>
+    </bean>
+</beans>
