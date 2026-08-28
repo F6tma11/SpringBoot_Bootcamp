@@ -1,0 +1,67 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MVC3-FormValidation:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MVC3_FormValidation_jar</output-path>
+    <root id="archive" name="MVC3-FormValidation.jar">
+      <element id="module-output" name="MVC3-FormValidation" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/mysql-connector-j-26.7.0/mysql-connector-j-26.7.0/mysql-connector-j-26.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/lombok.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/classmate-1.5.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/mysql-connector.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-tx-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-aop-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-jcl-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-jms-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-orm-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-oxm-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-web-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-core-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-jdbc-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-test-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-beans-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-r2dbc-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-webmvc-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-aspects-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-context-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-webflux-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/javax.el-api-3.0.1-b06.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-messaging-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-websocket-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/javax.servlet-api-4.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-expression-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-instrument-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-tx-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-aop-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-jcl-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-jms-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-orm-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-oxm-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-web-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/jboss-logging-3.3.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-core-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-jdbc-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-test-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/javax.annotation-api-1.3.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-beans-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-r2dbc-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/validation-api-2.0.1.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-webmvc-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/javax.servlet.jsp.jstl-1.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-aspects-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-context-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-context-indexer-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-context-support-5.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-webflux-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-messaging-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-websocket-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/hibernate-validator-6.0.2.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-expression-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-instrument-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/javax.servlet.jsp.jstl-api-1.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/hibernate-validator-cdi-6.0.2.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-context-indexer-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/spring-context-support-5.3.9-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../SpringMVCMaterial/Template/Template/libs/hibernate-validator-annotation-processor-6.0.2.Final.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
